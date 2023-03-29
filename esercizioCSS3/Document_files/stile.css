@@ -1,0 +1,264 @@
+/* IMPOSTAZIONI GENERALI */
+h1,h2,h3 { font-family: 'Raleway', sans-serif;
+
+}
+h2 {
+
+  color: #99cbff;
+}
+/* HEADER */
+header {
+  background-color: #99cbff;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  top: -32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 1.4em;
+  position: relative;
+  top: 40px;
+
+
+}
+
+ header h2 {
+background-color:white ;
+color: #99cbff;
+position: absolute;
+text-align: center;
+top: 80px;
+left: 80px;
+font-size: 1.4em;
+
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 200px;
+  font-size: 0.8em;
+
+
+}
+/* MAIN */
+#info {
+  color:99cbff ;
+  text-align: center;
+  top: 250px;
+}
+#info h2 {
+  position: relative;
+  top: 130px;
+
+
+}
+.thumb {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  position: absolute;
+  top:370px ;
+  left: 28px;
+  border: solid 4px#000;
+  padding-top: 8px;
+}
+
+.thumb>img {
+  height: 180px;
+  width: 305px;
+  margin-left: -30px;
+  margin-right: -40px;
+}
+
+#postazione {
+  text-align: center;
+  position: relative;
+  top: 208px;
+
+}
+
+#calendario {
+  float: left;
+  width: 1.6em;
+  position: relative;
+  top: 230px;
+
+}
+
+#calendar {
+  font-size: 1em;
+  position: relative;
+  top: 218px;
+  display: inline-block;
+  text-align: center;
+  border: 3px;
+  left: 10px;
+}
+
+#telefono {
+  float: left;
+  width: 1.6em;
+  position: relative;
+  top: 277px;
+  left: -25px
+
+}
+
+#smartphone {
+  font-size: 1em;
+  position: relative;
+  top: 218px;
+  display: inline-block;
+  text-align: center;
+  border: 3px;
+  left: 37px;
+}
+
+#wpicon {
+  float: left;
+  position: relative;
+  width: 1.5em;
+  top: 275px;
+}
+
+#whatsapp {
+font-size: 1em;
+  position: relative;
+  top: 213px;
+  display: inline-block;
+  text-align: center;
+  border: 3px;
+  left: 60px;
+
+
+}
+#sudime  {
+position: relative;
+top: 213px;
+
+}
+
+#sudime::first-line {
+  font-weight: bold;
+}
+
+.box {
+background-color: rgb(174, 164, 164);
+border: solid 1px;
+border-radius: 10px;
+height: 65px;
+position: relative;
+top: 230px;
+margin: auto;
+text-align: center;
+
+
+
+}
+
+
+.presentazione {
+position: relative;
+  top: 150px;
+}
+ .presentazione h2 {
+  position: relative;
+  top: 115px;
+
+  color: #99cbff;
+  background-color:transparent;
+}
+.presentazione p {
+position: relative;
+top: 100px;
+}
+.presentazione p > strong {
+color: #99cbff;
+}
+
+hr {
+
+border: solid 0.5px#000;
+position: relative;
+top: 40px;
+
+}
+.formazione {
+  position: absolute;
+  top: 660px;
+  margin-top: 350px;
+
+
+}
+  .formazione h2 {
+    position: relative;
+  top: 150px;
+  color: #99cbff;
+  background-color: transparent;
+
+
+}
+.formazione p > strong {
+  background-color: blue;
+  color: white;
+}
+
+.formazione h4 {
+  position: relative;
+  top: 150px;
+
+}
+
+
+.formazione p {
+
+position: relative;
+top: 150px;
+
+
+}
+.formazione hr {
+  border: solid 0.5px#000;
+  position: relative;
+  top: -175px;
+
+
+
+}
+
+#competenze {
+  position: relative;
+  top: 555px;
+  border-bottom: 0.5px solid#000;
+
+
+}
+
+#competenze hr {
+  position: relative;
+top: -432px;
+border: solid 0.5px#000;
+
+}
+
+/* ELEMENTI NEL MAIN */
+
+/* FOOTER */
+footer {
+  position: relative;
+  top: 541px;
+  background-color: black;
+  color: white;
+
+}
+
+footer p {
+text-align: center;
+
+}
