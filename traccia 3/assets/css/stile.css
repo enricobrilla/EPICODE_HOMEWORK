@@ -1,0 +1,255 @@
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 1.2rem;
+line-height: 1.65;
+    }
+
+
+  h1 , h2, h3, h4 , h5, h6 {
+font-family: 'Montserrat', sans-serif;
+line-height: 1.5;
+color: #25a2c3;
+text-align: center;
+
+  }
+header {
+  position: relative;
+  width: 230px;
+  margin: 1px;
+  top: -5px;
+  left: -5px;
+
+
+    padding: 80px;
+background-color: black;
+}
+
+header img {
+width: 260px;
+  height: 70px;
+  overflow: hidden;
+  position: absolute;
+  top: 40px;
+  left: 70px;
+
+}
+
+
+
+
+ p {
+text-align: center;
+
+
+}
+#inizio h4 {
+  text-align: center;
+  margin: 10px;
+  color: white;
+  background-color: #f04c2f;
+  border-radius: 4px;
+  width: 125px;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  padding-left: 45px;
+  padding-right: 45px;
+  position: relative;
+  left: 73px;
+  height: 40px;
+
+
+
+}
+
+.sfondo {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.sfondo > img {
+  position: absolute;
+top: 140px;
+width: 480px;
+  height: 360px;
+  right: -500px;
+  left: -80px;
+
+}
+
+.circolare {
+margin-left: 50px;
+width: 300px;
+height: 300px;
+border-radius: 999em;
+-moz-border-radius: 999em;
+-webkit-border-radius: 999em;
+-o-border-radius: 999em;
+
+}
+
+#garantisce {
+  padding-top: 10px;
+  background-color: #e22d0e;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+#garantisce h2 {
+  color: white;
+
+
+}
+
+#garantisce p, cite {
+
+  color: white;
+}
+
+  cite {
+  text-align: center;
+  margin-left: 25px;
+  position: relative;
+  left: 20px;
+
+
+
+}
+
+ #garantisce h5, h6 {
+
+  color: white;
+  font-family:'Open Sans',sans-serif;
+ }
+
+ h6 {
+  position: relative;
+  bottom: 26px;
+  padding-bottom: 10px;
+
+
+
+ }
+#foto1 {
+width: 90%;
+  border: solid 1px#cacbcc;
+  margin:  25px;
+
+}
+.primoriquadro h4 {
+  position: relative;
+  top: -30px;
+}
+.primoriquadro  p {
+  position: relative;
+border-top: 95px;
+  border: solid 1px#cacbcc;
+    margin: 25px;
+padding-bottom: 50px;
+border-style: groove;
+padding-top: 110px;
+bottom: 155px;
+left: 0.3px;
+width: 345px;
+z-index: -1;
+
+}
+
+
+
+
+
+#foto2 {
+  position: relative;
+  top: -160px;
+  width: 90%;
+  border: solid 1px#cacbcc;
+  margin: 25px;
+}
+
+
+.secondoriquadro h4 {
+position: relative;
+top: -180px;
+
+}
+
+.secondoriquadro p {
+  position: relative;
+  border-top: 95px;
+  border: solid 1px#cacbcc;
+  margin: 25px;
+  padding-top: 110px;
+  border-style: groove;
+  padding-bottom: 80px;
+  bottom: 295px;
+  left: 0.3px;
+  width: 345px;
+  z-index: -1;
+}
+
+
+#foto3 {
+  position: relative;
+  top: -250px;
+  width: 90%;
+  border: solid 1px#cacbcc;
+  margin: 25px;
+}
+
+
+.terzoriquadro h4 {
+  position: relative;
+  top: -270px;
+
+}
+
+.terzoriquadro p {
+  position: relative;
+  border-top: 95px;
+  border: solid 1px#cacbcc;
+  margin: 25px;
+  padding-top: 110px;
+  border-style: groove;
+  padding-bottom: 80px;
+  bottom: 380px;
+  left: 0.3px;
+  width: 345px;
+  z-index: -1;
+}
+footer {
+  background-color: #34aac9;
+  background-image: linear-gradient(to bottom #34aac9 #178a8c);
+  color: #c8e7f0;
+  position: relative;
+  top: -330px;
+}
+
+h5 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer p:last-of-type {
+  border-top: 2px solid white;
+  padding-top: 7.5%;
+  padding-bottom: 15%;
+  margin-inline: 25%;
+  font-size: 0.9em;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer p:nth-last-child(2) {
+  padding-bottom: 2em;
+}
